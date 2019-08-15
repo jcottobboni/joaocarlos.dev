@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import floppy from '../images/floppy.png'
+import raven_shield_white from '../images/raven_shield_white.png'
 import sun from '../images/sun.svg'
 import moon from '../images/moon.svg'
 import kofi from '../../content/thumbnails/kofi.png'
@@ -39,7 +39,7 @@ export default class Navigation extends Component {
         <div className="nav-container">
           <div className="brand">
             <Link to="/">
-              <img src={floppy} className="favicon" alt="Floppy Diskette" />
+              <img src={raven_shield_white} className="favicon" alt="Ravenclaw Crest by Whitney Rosenberg from the Noun Project" />
               <span className="text">João Carlos Ottobboni</span>
             </Link>
           </div>

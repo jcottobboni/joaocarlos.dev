@@ -4,19 +4,15 @@ import Layout from '../layout'
 import config from '../../data/SiteConfig'
 import publications from '../../data/publications'
 import digitalOcean from '../../content/images/do.png'
-import sitePoint from '../../content/images/sitepoint.png'
 import codrops from '../../content/images/codrops.png'
 import envato from '../../content/images/envato.png'
-import progress from '../../content/images/progress.png'
 
 export default class PublicationsPage extends Component {
   render() {
     const logoMap = {
       DigitalOcean: digitalOcean,
-      SitePoint: sitePoint,
       Codrops: codrops,
       'Envato Tuts+': envato,
-      Progress: progress,
     }
 
     const pubs = Object.entries(publications)

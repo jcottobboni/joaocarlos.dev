@@ -13,7 +13,6 @@ import projects from '../../data/projects'
 import speaking from '../../data/speaking'
 import podcasts from '../../data/podcasts'
 import quotes from '../../data/quotes'
-import newMoon from '../../content/images/new-moon.svg'
 
 export default class Index extends Component {
   render() {
@@ -24,11 +23,11 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – Web developer & writer`} />
+        <Helmet title={`${config.siteTitle} – Web developer`} />
         <SEO />
         <div className="container">
           <div className="lead">
-            
+
             <h1>{`Hi, I'm João`}</h1>
             <p>
               {`I'm a web developer and writer specializing in Ruby on Rails. I make things from scratch, contribute to open source, and write about

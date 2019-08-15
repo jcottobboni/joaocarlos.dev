@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'João Carlos Ottobboni is web developer and writer specializing in Ruby on Rails.',
+    'João Carlos Ottobboni is web developer specializing in Ruby on Rails.',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-42068484-1',
   postDefaultCategoryID: 'Tech',

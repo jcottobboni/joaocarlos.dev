@@ -4,7 +4,7 @@ import ThemeContext from '../context/ThemeContext'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import config from '../../data/SiteConfig'
-import favicon from '../images/favicon.png'
+import raven_shield from '../images/raven_shield.png'
 import '../styles/main.scss'
 
 export default class MainLayout extends Component {
@@ -14,7 +14,7 @@ export default class MainLayout extends Component {
     const { dark, notFound } = this.context
     const { children } = this.props
     let themeClass = ''
-    
+
     if (dark && !notFound) {
       themeClass = 'dark'
     } else if (notFound) {
@@ -29,7 +29,7 @@ export default class MainLayout extends Component {
           }}
         >
           <meta name="description" content={config.siteDescription} />
-          <link rel="shortcut icon" type="image/png" href={favicon} />
+          <link rel="shortcut icon" type="image/png" href={raven_shield} />
         </Helmet>
         <Navigation menuLinks={config.menuLinks} />
         <main id="main-content">{children}</main>
