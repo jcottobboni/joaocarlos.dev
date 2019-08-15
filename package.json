@@ -1,47 +1,91 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "joaocarlos.dev",
+  "description": "Personal website running on Gatsby, React, and Node.js.",
+  "version": "1.0.1",
+  "author": "João Carlos Ottobboni <jcottobboni@gmail.com>",
+  "repository": "git@github.com:jcottobboni/joaocarlos.dev",
   "dependencies": {
-    "gatsby": "^2.13.63",
-    "gatsby-cli": "^2.7.30",
-    "gatsby-image": "^2.2.8",
-    "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-plugin-offline": "^2.2.6",
-    "gatsby-plugin-react-helmet": "^3.1.3",
-    "gatsby-plugin-sharp": "^2.2.11",
-    "gatsby-plugin-typography": "^2.3.2",
-    "gatsby-source-filesystem": "^2.1.9",
-    "gatsby-transformer-sharp": "^2.2.6",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
+    "gatsby": "^2.13.13",
+    "gatsby-image": "^2.2.4",
+    "gatsby-plugin-catch-links": "^2.1.0",
+    "gatsby-plugin-feed": "^2.3.2",
+    "gatsby-plugin-google-analytics": "^2.1.1",
+    "gatsby-plugin-manifest": "^2.2.1",
+    "gatsby-plugin-netlify": "^2.0.13",
+    "gatsby-plugin-nprogress": "^2.1.0",
+    "gatsby-plugin-offline": "^2.2.1",
+    "gatsby-plugin-react-helmet": "3.1.0",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-sharp": "^2.2.3",
+    "gatsby-plugin-sitemap": "2.2.1",
+    "gatsby-plugin-twitter": "^2.0.13",
+    "gatsby-plugin-typography": "^2.2.10",
+    "gatsby-remark-autolink-headers": "^2.1.0",
+    "gatsby-remark-copy-linked-files": "^2.1.0",
+    "gatsby-remark-images": "3.1.3",
+    "gatsby-remark-prismjs": "3.3.1",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-remark": "2.6.2",
+    "gatsby-transformer-sharp": "2.2.1",
+    "lodash": "^4.17.13",
+    "lodash.kebabcase": "^4.1.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "prismjs": "^1.15.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-github-btn": "^1.0.5",
+    "react-helmet": "^5.2.0",
     "react-typography": "^0.16.19",
-    "typography": "^0.16.19"
+    "sharp": "^0.22.1",
+    "typography": "^0.16.19",
+    "url-join": "^4.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "babel-eslint": "^10.0.1",
+    "cli-glob": "^0.1.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "remark-cli": "^6.0.1",
+    "remark-preset-lint-recommended": "^3.0.1",
+    "stylefmt": "^6.0.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.0.0",
+    "write-good": "^1.0.1"
   },
   "keywords": [
-    "gatsby"
+    "joao carlos",
+    "development",
+    "dev",
+    "tutorials",
+    "tech",
+    "articles",
+    "blog"
   ],
   "license": "MIT",
+  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "dev": "yarn run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "build": "gatsby build",
+    "build:pp": "gatsby build --prefix-paths",
+    "build:gh": "yarn run clean && yarn run build:pp && gh-pages -d public",
+    "clean": "rm -rf public && rm -rf .cache",
+    "lint:js": "eslint --ext .js,.jsx .",
+    "lint:md": "remark content/posts/",
+    "write-good": "write-good $(glob 'content/posts/*.md')",
+    "format:js": "prettier '**/*.{js,jsx}' --write",
+    "check": "npx npm-check-updates -u"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
   }
 }
