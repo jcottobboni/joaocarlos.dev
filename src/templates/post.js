@@ -118,7 +118,7 @@ export default class PostTemplate extends Component {
 
           <h3>Join the newsletter</h3>
           <p>
-            I write about JavaScript, programming, and front-end design. Join other developers in
+            I write about Ruby on Rails, and Web programming. Join other developers in
             keeping up with my content. Unsubscribe whenever.{' '}
             <b>Never any spam, ads, or affiliate links.</b>
           </p>

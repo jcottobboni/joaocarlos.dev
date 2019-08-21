@@ -1,5 +1,5 @@
 ---
-date: 2015-09-24
+date: 2019-07-01
 title: 'Getting Started with Git'
 template: post
 thumbnail: '../thumbnails/git.png'

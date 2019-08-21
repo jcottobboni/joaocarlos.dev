@@ -15,8 +15,7 @@ export default class UserInfo extends Component {
             <div>
               <p>
                 {`I'm João Carlos, a web developer specializing in Ruby on Rails. I make
-              open source coding projects and write free, quality articles and tutorials that help
-              thousands of people daily. No ads, no sponsored posts, no bullshit.`}
+              open source coding projects and write for help others.`}
               </p>
 
               <div className="flex">
