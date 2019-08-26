@@ -6,6 +6,7 @@ thumbnail: '../thumbnails/ruby.png'
 slug: ruby_old_versions_with_rbenv
 categories:
   - Tutorials
+  - Ruby
 tags:
   - ruby
   - rbenv
