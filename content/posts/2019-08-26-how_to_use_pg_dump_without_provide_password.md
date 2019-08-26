@@ -12,6 +12,8 @@ tags:
   - postgresql
 ---
 
+Sometimes you need to put comands from Postgres CLI in bash scripts, and the passwords can be a problem, no more:
+
 ## Provide password using the password file
 ### Create the config file
 
