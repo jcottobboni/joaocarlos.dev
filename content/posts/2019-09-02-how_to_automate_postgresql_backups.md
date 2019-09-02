@@ -147,6 +147,11 @@ Save this content in file called pg_backup.sh, and give permission to execute
 ```terminal
 chomd +x pg_backup.sh
 ```
+The scp comands sends a copy from db to another server, in this sample i send to my staging server, but you can send for any machine you want, for this command works without ask a password you need to copy your ssh key to the server with this command:
+
+```terminal
+ssh-copy-id -i ~/.ssh/id_rsa.pub "user"@"server-address-or-ip"
+```
 
 To enable automate for you script open crontab
 
