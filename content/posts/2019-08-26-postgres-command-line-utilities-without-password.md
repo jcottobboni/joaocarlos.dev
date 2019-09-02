@@ -1,9 +1,9 @@
 ---
 date: 2019-08-26
-title: 'How to provide password for your postgresql scripts'
+title: 'PostgreSql command line utilities without provide password'
 template: post
 thumbnail: '../thumbnails/postgresql.png'
-slug: how_to_provide_password_for_your_postgresql_scripts
+slug: postgresql-command-line-utilities-without-provide-password
 categories:
   - Tutorials
   - PostgreSQL

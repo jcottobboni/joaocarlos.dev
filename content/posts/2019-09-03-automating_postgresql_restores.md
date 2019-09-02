@@ -1,9 +1,9 @@
 ---
 date: 2019-09-03
-title: 'How to Automate PostgreSQL Restore'
+title: 'Automating PostgreSQL Restores'
 template: post
 thumbnail: '../thumbnails/postgresql.png'
-slug: how_to_automate_postgresql_restore
+slug: automating_postgresql_restores
 categories:
   - Tutorials
   - PostgreSQL
@@ -16,9 +16,9 @@ tags:
 
 
 ## Required reading
-[How to provide password for your postgresql scripts](https://joaocarlos.dev/how_to_provide_password_for_your_postgresql_scripts/)
+[PostgreSql command line utilities without provide password](https://joaocarlos.dev/postgresql-command-line-utilities-without-provide-password/)
 
-[How to send messages to slack in bash script](https://joaocarlos.dev/how-to-send-messages-slack-in-bash-scripts/)
+[Sending messages to slack with bash script](https://joaocarlos.dev/sending-messages-to-slack-with-bash-scripts/)
 
 Recently i need to build some bash scripts to implement a automated backups and restores for my production and staging enviroments with PostgreSQL. I develop a script for backup database in production enviroment and save the backup on staging server.
 And now i developed one to take the uploaded files and restore the staging db.

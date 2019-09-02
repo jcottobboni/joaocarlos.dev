@@ -1,9 +1,9 @@
 ---
 date: 2019-09-01
-title: 'How to send messages to slack in bash script'
+title: 'Sending messages to slack with bash script'
 template: post
 thumbnail: '../thumbnails/slack.png'
-slug: how-to-send-messages-slack-in-bash-scripts
+slug: sending-messages-to-slack-with-bash-scripts
 categories:
   - Tutorials
   - Bash
