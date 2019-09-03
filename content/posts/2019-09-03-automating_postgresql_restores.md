@@ -20,6 +20,7 @@ tags:
 
 [Sending messages to slack with bash script](https://joaocarlos.dev/sending-messages-to-slack-with-bash-scripts/)
 
+## Let's go then
 Recently i need to build some bash scripts to implement a automated backups and restores for my production and staging enviroments with PostgreSQL. I develop a script for backup database in production enviroment and save the backup on staging server.
 And now i developed one to take the uploaded files and restore the staging db.
 Using cronjob you habe an automation of restores.
