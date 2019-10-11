@@ -98,7 +98,7 @@ Save this content in file called pg_restore.sh, and give permission to execute
 
 
 ```terminal
-chomd +x pg_restore.sh
+chmod +x pg_restore.sh
 ```
 
 To enable automate for you script open crontab
