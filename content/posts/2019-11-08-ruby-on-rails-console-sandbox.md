@@ -1,6 +1,6 @@
 ---
 date: 2019-11-08
-title: 'Truncate database in Ruby on Rails 6'
+title: 'Ruby On Rails console sandbox mode'
 template: post
 thumbnail: '../thumbnails/ruby.png'
 slug: truncate-database-rails-6
