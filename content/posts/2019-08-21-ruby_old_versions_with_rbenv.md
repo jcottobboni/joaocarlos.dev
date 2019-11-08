@@ -21,7 +21,7 @@ So, usually it looks like that:
 ```terminal
 
 apt install libssl1.0-dev
-CC=$(which gcc-6) rbenv install `version`
+rbenv install `version`
 ```
 
 ### for ruby >2.4
