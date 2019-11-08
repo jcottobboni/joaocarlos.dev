@@ -1,15 +1,15 @@
 ---
-date: 2019-09-27
-title: 'Setup Barman on Ubuntu'
+date: 2019-11-07
+title: 'Gnome Control Center on i3wm'
 template: post
-thumbnail: '../thumbnails/terminal.png'
+thumbnail: '../thumbnails/i3wm.png'
 slug: running-gnome-control-center-on-i3
 categories:
   - Tutorials
-  - I3
+  - i3wm
 tags:
   - linux
-  - i3
+  - i3wm
   - tutorials
 ---
 
@@ -19,5 +19,5 @@ Here is the issue: I’m running i3 on the desktop, but still need to have GNOME
 ### It’s also worth creating an alias for that command
 
 ```terminal
- alias settings='XDG_CURRENT_DESKTOP=GNOME gnome-control-center' 
+ alias settings='XDG_CURRENT_DESKTOP=GNOME gnome-control-center'
 ```
