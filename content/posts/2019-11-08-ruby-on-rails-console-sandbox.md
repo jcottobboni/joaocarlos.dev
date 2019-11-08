@@ -27,3 +27,4 @@ you will get following information
 Loading production environment in sandbox (Rails X.X.X)
 Any modifications you make will be rolled back on exit
 ```
+You can now safely perform data migration and check if everything is OK.
