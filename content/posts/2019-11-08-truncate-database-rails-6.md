@@ -1,5 +1,5 @@
 ---
-date: 2019-11-07
+date: 2019-11-08
 title: 'Truncate database in Ruby on Rails 6'
 template: post
 thumbnail: '../thumbnails/ruby.png'
