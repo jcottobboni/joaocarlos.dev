@@ -3,7 +3,7 @@ date: 2019-11-08
 title: 'Ruby On Rails console sandbox mode'
 template: post
 thumbnail: '../thumbnails/ruby.png'
-slug: truncate-database-rails-6
+slug: ruby-on-rails-console-sandbox
 categories:
   - Tutorials
   - Rails
