@@ -30,3 +30,9 @@ I’m João Carlos Ottobboni, a web developer.
 - **Newsletter:** [Mailchimp](https://mailchimp.com/)
 - **Notes:** [BoostNote](https://boostnote.io/)
 - **Text Editor:** [Atom](https://atom.io/)
+
+<iframe src="https://kit.co/embed?url=https%3A%2F%2Fkit.co%2Fjcottobboni%2Fsetup-accessories" style="display: block; border: 0px; margin: 0 auto; width: 100%; height: 100vw; max-width: 700px; max-height: 700px" scrolling="no"></iframe>
+
+<iframe src="https://kit.co/embed?url=https%3A%2F%2Fkit.co%2Fjcottobboni%2Fpc-peripherals" style="display: block; border: 0px; margin: 0 auto; width: 100%; height: 100vw; max-width: 700px; max-height: 700px" scrolling="no"></iframe>
+
+<iframe src="https://kit.co/embed?url=https%3A%2F%2Fkit.co%2Fjcottobboni%2Fpc-setup" style="display: block; border: 0px; margin: 0 auto; width: 100%; height: 100vw; max-width: 700px; max-height: 700px" scrolling="no"></iframe>
