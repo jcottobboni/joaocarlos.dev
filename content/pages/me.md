@@ -11,7 +11,12 @@ I’m João Carlos Ottobboni, a web developer.
 ### Around the web
 
 - **GitHub**: [jcottobboni](https://github.com/jcottobboni)
+- **Codersrank**: [jcottobboni](https://profile.codersrank.io/user/jcottobboni/)
+- **Linkedin**: [jcottobboni](https://www.linkedin.com/in/jcottobboni/)
 - **Twitter**: [jcottobboni](https://twitter.com/jcottobboni)
+- **Kit**: [jcottobboni](https://kit.co/jcottobboni)
+- **StackOverflow**: [jcottobboni](https://stackoverflow.com/users/2133208/jo%c3%a3o-carlos-ottobboni)
+
 
 
 ## Currently Using
