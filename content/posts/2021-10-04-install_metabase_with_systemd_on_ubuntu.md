@@ -15,13 +15,14 @@ tags:
 ## Install Metabase with Systemd on Ubuntu
 
 ```terminal
-mkdir metabase
-wget https://downloads.metabase.com/v0.38.3/metabase.jar metabase/
+mkdir metabase && cd metabase
+wget https://downloads.metabase.com/v0.38.3/metabase.jar
 ```
 
 ```terminal
 sudo apt -y install openjdk-11-jdk openjdk-11-jre
 sudo groupadd -r metabase
+sudo useradd -r -s /bin/false -g metabase metabase
 sudo chown -R metabase:metabase metabase/
 sudo touch /var/log/metabase.log
 sudo touch /etc/default/metabase
@@ -39,7 +40,7 @@ After=syslog.target
 After=network.target
 
 [Service]
-WorkingDirectory=/home/siedos/projects/
+WorkingDirectory=/home/you_username/projects/
 ExecStart=/usr/bin/java -jar /home/you_username/projects/metabase/metabase.jar
 EnvironmentFile=/etc/default/metabase
 User=metabase
