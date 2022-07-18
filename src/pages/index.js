@@ -11,7 +11,7 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projects'
 import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
+import certifications from '../../data/certifications'
 import quotes from '../../data/quotes'
 
 export default class Index extends Component {

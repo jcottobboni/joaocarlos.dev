@@ -27,6 +27,7 @@
     "gatsby-source-filesystem": "^2.0.23",
     "gatsby-transformer-remark": "2.6.2",
     "gatsby-transformer-sharp": "2.2.1",
+    "libvips": "0.0.2",
     "lodash": "^4.17.13",
     "lodash.kebabcase": "^4.1.1",
     "moment": "^2.24.0",
@@ -37,7 +38,7 @@
     "react-github-btn": "^1.0.5",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.19",
-    "sharp": "^0.22.1",
+    "sharp": "0.22.1",
     "typography": "^0.16.19",
     "url-join": "^4.0.0"
   },

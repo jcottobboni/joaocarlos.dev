@@ -27,6 +27,10 @@ const config = {
       link: '/blog/',
     },
     {
+      name: 'Certifications',
+      link: '/certifications/',
+    },
+    {
       name: 'Contact',
       link: '/contact/',
     },

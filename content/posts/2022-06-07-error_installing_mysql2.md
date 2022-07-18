@@ -2,7 +2,7 @@
 date: 2022-06-07
 title: 'Error installing mysql2: Failed to build gem native extension'
 template: post
-thumbnail: '../thumbnails/mysql.png'
+thumbnail: '../thumbnails/sql.png'
 slug: error_instaling_mysql2
 categories:
   - Tutorials
